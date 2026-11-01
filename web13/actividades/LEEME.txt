@@ -1,0 +1,13 @@
+PRÓXIMAS ACTIVIDADES
+=====================
+
+Esta carpeta está preparada para los afiches o fotografías que aparecerán en la sección “Próximas actividades”.
+
+Nombres de archivos previstos:
+- campamento.jpg
+- congreso.jpg
+- campana-evangelistica.jpg
+
+Para cambiar fecha, horario, lugar, título o descripción, editá index.html y buscá la sección con id="actividades". Cada anuncio está dentro de un bloque <details class="activity-entry"> y se despliega al hacer clic.
+
+Las actividades se dejaron como “por anunciar” y “por confirmar” para no publicar datos que la iglesia aún no ha definido.

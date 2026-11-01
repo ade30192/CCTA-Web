@@ -1,0 +1,19 @@
+CENTRO CRISTIANO TABERNÁCULO DE ADORACIÓN — WEB CON INTERFAZ DE INSCRIPCIONES
+
+Contenido basado en web6.zip recibido:
+- index.html, actividades.html, styles.css y script.js conservados y actualizados con enlaces a Inscripciones.
+- inscripciones.html: nueva página con la identidad visual azul/dorado.
+- inscripciones.css: estilos adaptables a móvil y computadora.
+- inscripciones.js: punto de configuración inicial para integración con la futura API Java.
+
+IMPORTANTE — AÚN NO ES UNA INSCRIPCIÓN EN VIVO
+La web original es un frontend estático de HTML/CSS/JavaScript. No contiene backend ni API y por eso no puede escribir directamente en MySQL. La nueva página informa de forma visible que todavía no recibe datos personales. No se deben ingresar datos reales en esta versión.
+
+SIGUIENTE FASE PARA CONECTARLO DE VERDAD
+1. Crear/publicar un backend Java (por ejemplo, Spring Boot) con endpoints para actividades públicas, registro de participantes e inscripción.
+2. Hacer que el backend use la base de datos MySQL con un usuario limitado (no `root`).
+3. Aplicar validación de campos, control de cupos, prevención de duplicados, reglas de permisos de menores, autenticación administrativa y protección de los campos de salud.
+4. Publicar el backend y la base de datos en un servidor seguro con HTTPS. La web estática puede seguir en Netlify/GitHub Pages.
+5. Configurar window.CCTA_API_BASE_URL en una configuración separada para usar la URL HTTPS real de la API y probar el registro desde la web.
+
+No se modificó ni borró la base de datos MySQL del usuario. El formulario de inscripción en línea no se habilita hasta implementar y probar el backend.
